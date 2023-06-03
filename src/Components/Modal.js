@@ -1,3 +1,5 @@
+import { AiOutlineClose } from "react-icons/ai";
+
 const Modal=({show,item,onClose})=>{
     if(!show)
     {
@@ -8,7 +10,7 @@ const Modal=({show,item,onClose})=>{
         <>
             <div className="overlay">
                 <div className="overlay-inner">
-                    <button className="close" onClick={onClose}><i class="fas fa-times"></i></button>
+                    <button className="close" onClick={onClose}><AiOutlineClose/></button>
                     <div className="inner-box">
                         <img src={thumbnail} alt="" />
                         <div className="info">

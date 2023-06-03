@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Card from "./Card";
+import {FaSearch} from "react-icons/fa"
 const Main=()=>{
     const [search,setSearch]= useState("");
     const [bookData,setBookData]=useState([]);
@@ -23,7 +24,7 @@ const Main=()=>{
                     <div className="search">
                         <input type="text" placeholder="Enter Your Book Name"
                         value={search} onChange={e => setSearch(e.target.value)} onKeyUp={searchBook}/>
-                        <button onClick={searchBook}><i className="fas fa-search"></i></button>
+                        <button onClick={searchBook}><FaSearch/></button>
                     </div>
                     <img src="./images/bg2.png" alt="" />
                 </div>
