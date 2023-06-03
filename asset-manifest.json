@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BookShop/static/css/main.f80e0206.css",
+    "main.js": "/BookShop/static/js/main.d1afe545.js",
+    "static/media/bg1.png": "/BookShop/static/media/bg1.7b6b7467cd83f4871538.png",
+    "index.html": "/BookShop/index.html",
+    "main.f80e0206.css.map": "/BookShop/static/css/main.f80e0206.css.map",
+    "main.d1afe545.js.map": "/BookShop/static/js/main.d1afe545.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f80e0206.css",
+    "static/js/main.d1afe545.js"
+  ]
+}
